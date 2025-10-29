@@ -37,7 +37,7 @@ public class TallerFunciones {
     }
 
     public static void contadorVocales() {
-        sc.nextLine(); // limpiar buffer
+        sc.nextLine();
         System.out.print("Ingresa una cadena: ");
         String texto = sc.nextLine().toLowerCase();
         int contador = 0;
@@ -275,3 +275,4 @@ public class TallerFunciones {
         }
     }
 }
+
