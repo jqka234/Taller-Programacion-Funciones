@@ -116,7 +116,7 @@ public class TallerFunciones {
         }
     }
 
-    public static int BuscarPalabra(String cadena, String palabra) {
+    public static int Ocurrencias(String cadena, String palabra) {
         String[] palabras = cadena.toLowerCase().split(" ");
         int contador = 0;
         for (String p : palabras) {
@@ -263,7 +263,7 @@ public class TallerFunciones {
                 cadena = sc.nextLine();
                 System.out.print("Palabra a contar: ");
                 palabra = sc.nextLine();
-                System.out.println("Ocurrencias: " + BuscarPalabra(cadena, palabra));
+                System.out.println("Ocurrencias: " + Ocurrencias(cadena, palabra));
                 break;
             case 17:
                 System.out.println("Chaitoooo ;):);):);):)");
@@ -275,5 +275,6 @@ public class TallerFunciones {
         }
     }
 }
+
 
 
